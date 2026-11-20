@@ -517,17 +517,17 @@ Agrega pruebas de integración que cubran:
 
 ## Checklist final
 
-- [ ] Swagger UI y `/v3/api-docs` cargan.
-- [ ] Los controladores usan DTOs en lugar de entidades JPA en sus contratos.
-- [ ] Las validaciones inválidas responden `400`.
-- [ ] PUT reemplaza campos editables y no crea recursos nuevos.
-- [ ] PATCH conserva los campos no enviados.
-- [ ] Todos los GET son públicos.
-- [ ] POST/PUT/PATCH/DELETE conservan autorización por rol.
-- [ ] Registro crea solo `USER`; login emite JWT Bearer.
-- [ ] La clave JWT se mantiene fuera del código.
-- [ ] No hay mappings GET duplicados para imágenes.
-- [ ] `./mvnw test` pasa.
+- [x] Swagger UI y `/v3/api-docs` cargan.
+- [x] Los controladores usan DTOs en lugar de entidades JPA en sus contratos.
+- [x] Las validaciones inválidas responden `400`.
+- [x] PUT reemplaza campos editables y no crea recursos nuevos.
+- [x] PATCH conserva los campos no enviados.
+- [x] Todos los GET son públicos.
+- [x] POST/PUT/PATCH/DELETE conservan autorización por rol.
+- [x] Registro crea solo `USER`; login emite JWT Bearer.
+- [x] La clave JWT se mantiene fuera del código.
+- [x] No hay mappings GET duplicados para imágenes.
+- [x] `./mvnw test` pasa.
 
 ## Referencia
 
